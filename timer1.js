@@ -1,5 +1,6 @@
 // accept any number of timers as arguments
 let timers = process.argv.slice(2);
+
 if (timers.length !== 0) {
   for (const time of timers) {
     if (time > 0) {
@@ -8,4 +9,5 @@ if (timers.length !== 0) {
     }
   }
 };
-console.log(timers);
+
+// console.log(timers);
